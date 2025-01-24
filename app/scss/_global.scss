@@ -1,0 +1,14 @@
+html,
+body {
+  height: 100%;
+}
+
+.body {
+  background-color: $white-color;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
