@@ -3,3 +3,28 @@ $white-color: #ffffff;
 $border-color: #7ebf84;
 $light-grey: #d9d9d9;
 $subtitle-color: #f9f6e5;
+
+%roboto-con__400 {
+  font-family: "Roboto Condensed";
+  font-weight: 400;
+}
+
+%roboto-con__700 {
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+}
+
+%roboto__400 {
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+%roboto__500 {
+  font-family: "Roboto";
+  font-weight: 500;
+}
+
+%dosis__300 {
+  font-family: "Dosis";
+  font-weight: 300;
+}

@@ -5,10 +5,35 @@ body {
 
 .body {
   background-color: $white-color;
+  @extend %roboto__400;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33;
 }
 
 .container {
   max-width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.link-style {
+  border-radius: 3px;
+  background-color: $accent-color;
+  font-size: 18px;
+  color: $subtitle-color;
+  text-transform: uppercase;
 }
